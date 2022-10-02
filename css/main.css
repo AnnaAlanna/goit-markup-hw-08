@@ -264,6 +264,11 @@ body {
     border-radius: 2px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .active::after {
+    margin-bottom: 5px;
+  }
+}
 .social-list {
   padding-bottom: 24px;
   display: flex;
@@ -822,6 +827,7 @@ body {
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid #ECECEC;
 }
 
 @media screen and (min-width: 768px) {
@@ -968,6 +974,11 @@ body {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .advantages__title {
+    text-align: start;
+  }
+}
 .advantages__text {
   font-size: 14px;
   line-height: 1.71;
@@ -1270,6 +1281,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 70px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
