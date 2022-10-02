@@ -1,0 +1,25 @@
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: var(--accent-blue-color);
+}
+@media screen and (min-width:1200px) {
+    .logo{
+    font-size: 26px;
+    line-height: 1.19;
+    }
+}
+.logo--black {
+    color: var(--black-logo);
+}
+@media screen and (min-width:768px) {
+    .logo--black{
+    margin-right: 88px;
+}
+}
+.logo--white {
+    color: var(--main-white);
+}
